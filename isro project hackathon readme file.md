@@ -91,8 +91,7 @@ For LISS‑IV, AI has not “succeeded effortlessly” because:
 
 **A QUITE HIGH LEVEL MODEL DU OND CHIKK IDEA-**
 
-
-
+**MY SIDE OF TECHNICAL RESEARCH AND IDEAS COMING UP, TILL NOW WAS INFORMATION ABOUT PROJECT RESEARCH AND CONCEPT**
 Takes as input:
 
 \->the cloudy LISS‑IV image (FCC bands)
