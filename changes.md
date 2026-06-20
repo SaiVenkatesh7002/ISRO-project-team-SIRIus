@@ -12,7 +12,7 @@ Timeline timezone: `+05:30` Indian Standard Time
 
 ## Quick Summary
 
-The repository started on **2026-06-19 at 22:08:50 +05:30** with an initial `README.md` file. On **2026-06-20**, the README was expanded into a full ISRO SIRIus project document, an additional uploaded markdown file was renamed, a `Prompts/` folder plus a team role-split document were added, and this repository timeline document was created.
+The repository started on **2026-06-19 at 22:08:50 +05:30** with an initial `README.md` file. On **2026-06-20**, the README was expanded into a full ISRO SIRIus project document, an additional uploaded markdown file was renamed, planning documents were added, the MVP frontend/backend skeleton was created, and the ISRO idea-submission PPTX template was added.
 
 ---
 
@@ -272,3 +272,125 @@ changes.md | 251 insertions
 ```
 
 > Note: Future edits to `changes.md` may be documentation-maintenance updates to keep this timeline accurate.
+
+---
+
+### 10. Repository Timeline Document Updated
+
+**Date & Time:** 2026-06-20 11:39:44 +05:30  
+**Commit:** `b051ee3`  
+**Author:** Rakshith-17-pro  
+**Commit Message:** `Update repository change timeline`
+
+#### What Happened
+
+- The `changes.md` file was updated after its initial creation.
+- The update added a clearer final section for the repository timeline itself.
+- This was a documentation-maintenance commit.
+
+#### Files Changed
+
+```text
+changes.md | 24 insertions, 1 deletion
+```
+
+---
+
+### 11. MVP Frontend and Backend Skeleton Added
+
+**Date & Time:** 2026-06-20 12:02:49 +05:30  
+**Commit:** `91c1864`  
+**Author:** Rakshith-17-pro  
+**Commit Message:** `Add MVP frontend and backend skeleton`
+
+#### What Happened
+
+- Actual implementation work started after the planning phase.
+- A new `backend/` folder was added with a FastAPI MVP skeleton.
+- A new `frontend/` folder was added with a React + Vite MVP skeleton.
+- A `.gitignore` file was added to avoid committing generated files such as `node_modules`, `dist`, Python cache files, virtual environments, and runtime storage.
+- A `tasks.md` file was added to define immediate execution tasks for Rockie, Venkyy, Laksha, and Mru.
+
+#### Backend Added
+
+- `backend/app/main.py` creates the FastAPI application.
+- CORS support was added for local frontend development.
+- Static file serving was mounted at `/files`.
+- MVP endpoints were added:
+  - `GET /health`
+  - `POST /predict`
+  - `GET /status/{job_id}`
+  - `GET /result/{job_id}`
+  - `GET /download/{job_id}/{format_name}`
+- An in-memory job manager was added for the MVP.
+- A demo processing service was added that creates placeholder output and demo metrics.
+- Upload validation was added for image file extensions and file size.
+
+#### Frontend Added
+
+- React + Vite project structure was created.
+- Pages added:
+  - Home page
+  - Upload page
+  - Results page
+  - About page
+- Components added:
+  - Layout
+  - UploadZone
+  - StepTracker
+  - ComparisonSlider
+  - MetricCard
+  - DownloadPanel
+- API client added for calling backend endpoints.
+- Basic styling added with a dark satellite-themed interface.
+
+#### Verification Done
+
+- Backend Python syntax was checked using:
+
+```text
+python -m compileall backend/app
+```
+
+- Frontend dependencies were installed and the production build was verified using:
+
+```text
+npm install
+npm run build
+```
+
+#### Files Changed
+
+```text
+.gitignore                                   | added
+backend/                                     | added
+frontend/                                    | added
+tasks.md                                     | added
+33 files changed, 1861 insertions
+```
+
+---
+
+### 12. ISRO Idea Submission PPTX Template Added
+
+**Date & Time:** 2026-06-20 12:04:29 +05:30  
+**Commit:** `0e5981c`  
+**Author:** Rakshith-17-pro  
+**Commit Message:** `Add ISRO idea submission template`
+
+#### What Happened
+
+- The local PowerPoint template file was added to the repository.
+- File added:
+
+```text
+[Pub] ISRO BAH 2026 _ Idea Submission Template.pptx
+```
+
+- This file appears to be the official/public idea-submission template for the ISRO BAH 2026 workflow.
+
+#### Files Changed
+
+```text
+[Pub] ISRO BAH 2026 _ Idea Submission Template.pptx | added
+```
