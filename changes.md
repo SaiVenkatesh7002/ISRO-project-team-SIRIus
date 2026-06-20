@@ -12,7 +12,7 @@ Timeline timezone: `+05:30` Indian Standard Time
 
 ## Quick Summary
 
-The repository started on **2026-06-19 at 22:08:50 +05:30** with an initial `README.md` file. On **2026-06-20**, the README was expanded into a full ISRO SIRIus project document, an additional uploaded markdown file was renamed, and later a `Prompts/` folder plus a team role-split document were added.
+The repository started on **2026-06-19 at 22:08:50 +05:30** with an initial `README.md` file. On **2026-06-20**, the README was expanded into a full ISRO SIRIus project document, an additional uploaded markdown file was renamed, a `Prompts/` folder plus a team role-split document were added, and this repository timeline document was created.
 
 ---
 
@@ -249,3 +249,26 @@ The repository has moved through these stages:
 8. Team responsibilities documented.
 
 The project is currently in a **planning/documentation and team-organization stage**, with clear next steps for frontend, backend, research, model development, and presentation preparation.
+
+---
+
+### 9. Repository Timeline Document Added
+
+**Date & Time:** 2026-06-20 11:38:26 +05:30  
+**Commit:** `1055f0e`  
+**Author:** Rakshith-17-pro  
+**Commit Message:** `Add repository change timeline`
+
+#### What Happened
+
+- A new file named `changes.md` was added to the main project folder.
+- The file documents the repository history from the first commit onward.
+- It explains each commit with date, author, commit message, changed files, and what happened.
+
+#### Files Changed
+
+```text
+changes.md | 251 insertions
+```
+
+> Note: Future edits to `changes.md` may be documentation-maintenance updates to keep this timeline accurate.
