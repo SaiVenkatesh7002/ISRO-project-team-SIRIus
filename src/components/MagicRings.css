@@ -1,0 +1,41 @@
+.magic-rings-wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 50% 12%, rgba(20, 85, 125, 0.46), transparent 34%),
+    radial-gradient(circle at 88% 76%, rgba(106, 34, 145, 0.34), transparent 34%),
+    radial-gradient(circle at 8% 82%, rgba(28, 118, 95, 0.24), transparent 30%),
+    linear-gradient(145deg, #01030b 0%, #040a1d 45%, #09051b 100%);
+}
+
+.magic-rings-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.magic-rings-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(103, 232, 249, 0.035) 1px, transparent 1px),
+    linear-gradient(rgba(168, 85, 247, 0.03) 1px, transparent 1px);
+  background-size: 70px 70px;
+  mask-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.65), transparent);
+  opacity: 0.55;
+}
+
+.magic-rings-grain {
+  position: absolute;
+  inset: 0;
+  opacity: 0.13;
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.34) 0.55px,
+    transparent 0.75px
+  );
+  background-size: 5px 5px;
+  mix-blend-mode: soft-light;
+}
