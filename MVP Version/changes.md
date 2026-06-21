@@ -12,11 +12,13 @@ Timeline timezone: `+05:30` Indian Standard Time
 
 ## Quick Summary
 
-The repository started on **2026-06-19 at 22:08:50 +05:30** with an initial `README.md` file. On **2026-06-20**, the README was expanded into a full ISRO SIRIus project document, an additional uploaded markdown file was renamed, planning documents were added, the MVP frontend/backend skeleton was created, and the ISRO idea-submission PPTX template was added.
+The repository started on **2026-06-19** with an initial `README.md` file. Over the next **3 days**, it evolved through planning, documentation, frontend/backend skeleton creation, a major structural reorganization, and finally the addition of a comprehensive strategic plans document. The project is now in a strong MVP state with a polished React 19 frontend, documented architecture, and a clear roadmap for the BAH 2026 finale.
 
 ---
 
 ## Timeline
+
+---
 
 ### 1. Repository Started
 
@@ -213,45 +215,6 @@ split.md            | 121 insertions
 
 ---
 
-## Current Repository State After Latest Timeline Entry
-
-As of commit `45f5538`, the repository contains:
-
-- A detailed `README.md` explaining the ISRO SIRIus cloud-removal project.
-- An additional markdown file: `ODU NANNA.md`.
-- A `Prompts/` folder containing project flow, frontend, backend, and PPT-generation documents.
-- A `split.md` file defining team roles and responsibilities.
-
----
-
-## Team Role Status
-
-The latest role split defines:
-
-- **Rockie:** Backend lead and project coordinator.
-- **Venkyy:** Research lead and concept explainer.
-- **Laksha:** Frontend developer for main pages and UI components.
-- **Mru:** Frontend developer for results page, animations, and visual polish.
-
----
-
-## Overall Progress
-
-The repository has moved through these stages:
-
-1. Initial README creation.
-2. README cleanup.
-3. Full project documentation expansion.
-4. Extra hackathon markdown upload.
-5. Minor clarification edit.
-6. File rename cleanup.
-7. Project planning documents added.
-8. Team responsibilities documented.
-
-The project is currently in a **planning/documentation and team-organization stage**, with clear next steps for frontend, backend, research, model development, and presentation preparation.
-
----
-
 ### 9. Repository Timeline Document Added
 
 **Date & Time:** 2026-06-20 11:38:26 +05:30  
@@ -270,8 +233,6 @@ The project is currently in a **planning/documentation and team-organization sta
 ```text
 changes.md | 251 insertions
 ```
-
-> Note: Future edits to `changes.md` may be documentation-maintenance updates to keep this timeline accurate.
 
 ---
 
@@ -328,43 +289,23 @@ changes.md | 24 insertions, 1 deletion
 
 #### Frontend Added
 
-- React + Vite project structure was created.
-- Pages added:
-  - Home page
-  - Upload page
-  - Results page
-  - About page
-- Components added:
-  - Layout
-  - UploadZone
-  - StepTracker
-  - ComparisonSlider
-  - MetricCard
-  - DownloadPanel
+- React + Vite project structure was created with routing (React Router).
+- Pages added: Home, Upload, Results, About.
+- Components added: Layout, UploadZone, StepTracker, ComparisonSlider, MetricCard, DownloadPanel.
 - API client added for calling backend endpoints.
-- Basic styling added with a dark satellite-themed interface.
+- Dark satellite-themed styling.
 
 #### Verification Done
 
-- Backend Python syntax was checked using:
-
-```text
-python -m compileall backend/app
-```
-
-- Frontend dependencies were installed and the production build was verified using:
-
-```text
-npm install
-npm run build
-```
+- Backend Python syntax compiled successfully.
+- Frontend dependencies installed and production build verified.
 
 #### Files Changed
 
 ```text
 .gitignore                                   | added
-backend/                                     | added
-frontend/                                    | added
+backend/                                     | added (6 files)
+frontend/                                    | added (16 files)
 tasks.md                                     | added
 33 files changed, 1861 insertions
 ```
@@ -381,16 +322,399 @@ tasks.md                                     | added
 #### What Happened
 
 - The local PowerPoint template file was added to the repository.
-- File added:
-
-```text
-[Pub] ISRO BAH 2026 _ Idea Submission Template.pptx
-```
-
-- This file appears to be the official/public idea-submission template for the ISRO BAH 2026 workflow.
+- File added: `[Pub] ISRO BAH 2026 _ Idea Submission Template.pptx`
+- This is the official idea-submission template for the ISRO BAH 2026 workflow.
 
 #### Files Changed
 
 ```text
 [Pub] ISRO BAH 2026 _ Idea Submission Template.pptx | added
 ```
+
+---
+
+### 13. MVP Skeleton and PPT Timeline Documented
+
+**Date & Time:** 2026-06-20 12:05:29 +05:30  
+**Commit:** `e205769`  
+**Author:** Rakshith-17-pro  
+**Commit Message:** `Document MVP skeleton and PPT timeline`
+
+#### What Happened
+
+- The `changes.md` file was updated to document commits #11 and #12.
+- Added detailed descriptions of the backend and frontend skeleton.
+- Noted the addition of the ISRO submission template.
+
+#### Files Changed
+
+```text
+changes.md | 123 insertions, 1 deletion
+```
+
+---
+
+### 14. FAQ File Added (Sai Venkatesh)
+
+**Date & Time:** 2026-06-20 22:03:50 +05:30  
+**Commit:** `106cfc7`  
+**Author:** Sai Venkatesh K  
+**Commit Message:** `Add files via upload`
+
+#### What Happened
+
+- A new file was uploaded: `Prompts/FAQ, isro project BAH.txt`
+- This file contains frequently asked questions and answers about the ISRO BAH project.
+
+#### Files Changed
+
+```text
+Prompts/FAQ, isro project BAH.txt | 455 insertions
+```
+
+---
+
+### 15. Research and Information Document Added
+
+**Date & Time:** 2026-06-21 14:40:53 +05:30  
+**Commit:** `a7fd666`  
+**Author:** Sai Venkatesh K  
+**Commit Message:** `Add files via upload`
+
+#### What Happened
+
+- A comprehensive research and information document was uploaded.
+- File added: `research and information.md`
+- Contains detailed technical research on cloud removal techniques, datasets, and reference architectures.
+
+#### Files Changed
+
+```text
+research and information.md | 1473 insertions
+```
+
+---
+
+### 16. Laksha's Full React 19 Frontend (Root Restructure Trigger)
+
+**Date & Time:** 2026-06-21 15:35:37 +05:30  
+**Commit:** `30486c4`  
+**Author:** Laksha p  
+**Commit Message:** `initial cloud clear front end`
+
+#### What Happened
+
+- A complete, polished React 19 frontend was committed to the repository root by Laksha.
+- This is the visually stunning **CLOUDCLEAR** dashboard built with:
+  - **React 19** + **Vite** (build tool)
+  - **Tailwind CSS v4** (styling)
+  - **Framer Motion** (animations)
+  - **Lucide React** (icons)
+  - **HTML5 Canvas** (interactive background via MagicRings)
+  - **Three.js** (listed in dependencies, not actively used)
+- Key components added:
+  - **MagicRings.jsx** — interactive aurora/ring Canvas animation background
+  - **BeforeAfterSlider.jsx** — slider-based before/after image comparison
+  - **ExportSection.jsx** — PNG/JPG/GeoTIFF download buttons
+  - **ModelCards.jsx** — model architecture cards
+  - **UploadZone.jsx** — drag-and-drop image upload interface
+  - **WorkflowPipeline.jsx** — processing steps visualization
+  - **MagicRings.css** — custom styles for the Canvas background
+
+#### Notable Details
+
+- The frontend is currently a **static UI mockup** — all metrics are hardcoded and the "reconstruct" button uses a simulated `setInterval` progress bar.
+- The comparison viewer features both slider and side-by-side modes.
+- The UI uses a dark "glassmorphism" space-themed design.
+
+#### Files Changed
+
+```text
+23 files changed, 5364 insertions
+```
+
+---
+
+### 17. Branch Merge (Laksha's Frontend + Main)
+
+**Date & Time:** 2026-06-21 15:48:51 +05:30  
+**Commit:** `dcbe8ba`  
+**Author:** Laksha p  
+**Commit Message:** `Merge branch 'main' of https://github.com/SaiVenkatesh7002/ISRO-project-team-SIRIus`
+
+#### What Happened
+
+- Laksha's frontend branch was merged with the main branch.
+- This brought Laksha's new React 19 frontend into the main branch alongside the existing documentation.
+
+#### Files Changed
+
+```text
+Merge commit — no direct file changes
+```
+
+---
+
+### 18. Ultimate Project Roadmap Added
+
+**Date & Time:** 2026-06-21 17:01:44 +05:30  
+**Commit:** `66bb533`  
+**Author:** Rakshith-17-pro  
+**Commit Message:** `Add ultimate project roadmap with 4-phase strategy and glossary`
+
+#### What Happened
+
+- A new strategic planning file was added: `roadmap.md`
+- The roadmap outlines a **4-Phase Master Plan**:
+  - **Phase 1 (Hack & Sleep MVP):** Now — June 25 — Build working demo, submit PPT
+  - **Phase 2 (Exam Lockdown):** June 25 — July 22 — Zero coding, focus on exams
+  - **Phase 3 (14-Day AI Sprint):** July 23 — August 5 — Train real PyTorch GAN model
+  - **Phase 4 (30-Hour Grand Finale):** August 6 — August 7 — Optimize with TensorRT, win
+- Includes a **Team Glossary** with simple explanations of OpenCV, PyTorch, GANs, U-Net, Rasterio, GeoTIFF/CRS, PSNR/SSIM, Mixed Precision, and TensorRT for judge presentations.
+
+#### Files Changed
+
+```text
+roadmap.md | 86 insertions
+```
+
+---
+
+### 19. Permission Test File (Cleanup Prep)
+
+**Date & Time:** 2026-06-21 17:48:40 +05:30  
+**Commit:** `8aae25c`  
+**Author:** Rakshith-17-pro  
+**Commit Message:** `Write permission test`
+
+#### What Happened
+
+- A temporary test file `test-write-perm.txt` was created to verify write permissions to the repository.
+
+#### Files Changed
+
+```text
+test-write-perm.txt | 1 insertion
+```
+
+---
+
+### 20. Test File Cleaned Up
+
+**Date & Time:** 2026-06-21 17:48:41 +05:30  
+**Commit:** `47fb0a1`  
+**Author:** Rakshith-17-pro  
+**Commit Message:** `Clean up test file`
+
+#### What Happened
+
+- The test file `test-write-perm.txt` was deleted after permissions were confirmed.
+
+#### Files Changed
+
+```text
+test-write-perm.txt | 1 deletion
+```
+
+---
+
+### 21. MVP Version Docs Organized into Subfolder
+
+**Date & Time:** 2026-06-21 17:49:54 +05:30  
+**Commit:** `5036d5a`  
+**Author:** Rakshith-17-pro  
+**Commit Message:** `Organize MVP Version docs into subfolder`
+
+#### What Happened
+
+- A major repository reorganization began.
+- All previous planning documents, prompts, the backend skeleton, and the old frontend skeleton were moved into a new `MVP Version/` subfolder.
+- This was done to cleanly separate the legacy MVP documentation from the new, polished frontend.
+- The following files were moved into `MVP Version/`:
+  - `MVP Version/README.md` (the original comprehensive project doc)
+  - `MVP Version/ODU NANNA.md`
+  - `MVP Version/roadmap.md`
+  - `MVP Version/split.md`
+  - `MVP Version/tasks.md`
+  - `MVP Version/changes.md`
+  - `MVP Version/research and information.md`
+  - `MVP Version/backend/` (full FastAPI skeleton)
+  - `MVP Version/frontend/` (old React + Vite skeleton)
+  - `MVP Version/Prompts/` (all planning prompts)
+  - `MVP Version/public/` (favicon, icons)
+  - `MVP Version/src/` (duplicate of Laksha's frontend source)
+  - `MVP Version/[Pub] ISRO BAH 2026 _ Idea Submission Template.pptx`
+
+#### Files Changed
+
+```text
+59 files changed, 8124 insertions
+```
+
+---
+
+### 22. Duplicate Paths Cleaned Up
+
+**Date & Time:** 2026-06-21 17:51:10 +05:30  
+**Commit:** `4168c60`  
+**Author:** Rakshith-17-pro  
+**Commit Message:** `Clean up duplicate paths, keep frontend + MVP Version/ only`
+
+#### What Happened
+
+- After the reorganization in commit #21, duplicate files remained in the root that were now also inside `MVP Version/`.
+- This commit removed the root-level duplicates:
+  - `ODU NANNA.md` (now at `MVP Version/ODU NANNA.md`)
+  - `Prompts/` folder (now at `MVP Version/Prompts/`)
+  - `backend/` folder (now at `MVP Version/backend/`)
+  - `changes.md` (now at `MVP Version/changes.md`)
+  - `research and information.md` (now at `MVP Version/research and information.md`)
+  - `roadmap.md` (now at `MVP Version/roadmap.md`)
+  - `split.md` (now at `MVP Version/split.md`)
+  - `tasks.md` (now at `MVP Version/tasks.md`)
+  - `[Pub] ISRO BAH 2026 _ Idea Submission Template.pptx` (now at `MVP Version/`)
+
+#### Files Changed
+
+```text
+24 files deleted, 4192 deletions
+```
+
+---
+
+### 23. Root Restructured: Only Laksha's Frontend + MVP Version/
+
+**Date & Time:** 2026-06-21 17:57:45 +05:30  
+**Commit:** `f3143d9` (tagged: `v1.0.0-frontend`)  
+**Author:** Rakshith-17-pro  
+**Commit Message:** `Restructure: root = Laksha's frontend only; move extras to MVP Version/`
+
+#### What Happened
+
+- The repository was fully restructured to make Laksha's polished frontend the **root of the repository**.
+- The `README.md` was replaced with a shorter frontend-specific README.
+- The old `MVP Version/README.md` now houses the original comprehensive project documentation.
+- The old `frontend/` skeleton (from commit #11) was deleted since it was superseded by Laksha's superior implementation.
+- The root now cleanly contains:
+  - **Frontend App:** `index.html`, `package.json`, `vite.config.js`, `src/`, `public/`
+  - **Dev Config:** `.gitignore`, `eslint.config.js`
+  - **Documentation:** `README.md` (frontend-focused)
+  - **Legacy:** `MVP Version/` subfolder (all planning docs, prompts, backend skeleton, old frontend skeleton)
+
+#### Files Changed
+
+```text
+22 files changed, 520 insertions, 1971 deletions
+```
+
+---
+
+### 24. Strategic Advantage Plans Added
+
+**Date & Time:** 2026-06-21 20:05:46 +05:30  
+**Commit:** `20cdd4d`  
+**Author:** Team SIRIus  
+**Commit Message:** `feat: add strategic advantage plans.md with 10 advanced concepts for BAH 2026`
+
+#### What Happened
+
+- A comprehensive strategic planning document was added: `plans.md`
+- This document contains **10 advanced concepts** designed to help Team SIRIus outperform industry professionals at the BAH 2026 Grand Finale:
+
+| # | Concept | Category |
+|---|---------|----------|
+| 1 | Anti-Hallucination Confidence Map | Scientific Integrity |
+| 2 | SAR-Optical Fusion Pipeline | Multimodal AI |
+| 3 | QGIS Plugin Integration | Workflow Integration |
+| 4 | Thin vs. Thick Cloud Stratification | Analytical Rigor |
+| 5 | Cost per sq km Analysis | Operational Viability |
+| 6 | NDVI Preservation & Spectral Fidelity | Spectral Science |
+| 7 | Multi-Temporal Fusion ("Time Machine") | Temporal Remote Sensing |
+| 8 | Joint Cloud & Shadow Removal | Comprehensive Coverage |
+| 9 | Human-in-the-Loop (HITL) Refinement Tool | Interactive UX |
+| 10 | Batch Processing CLI | Enterprise Deployment |
+
+- Includes an **Implementation Priority Matrix** mapping each idea to effort, impact, and recommended phase.
+- Includes a **PPT Submission Recommendation** for the June 25 deadline.
+
+---
+
+## Current Repository State
+
+As of commit `20cdd4d`, the repository contains:
+
+### Root Directory (Laksha's Polished Frontend)
+
+| Item | Description |
+|------|-------------|
+| `index.html` | Vite entry point |
+| `package.json` | React 19 + Vite + Tailwind v4 + Framer Motion |
+| `vite.config.js` | Vite configuration |
+| `eslint.config.js` | ESLint configuration |
+| `src/` | Source code (App.jsx, components/, assets/) |
+| `public/` | Static assets (favicon, icons) |
+| `README.md` | Frontend-focused project readme |
+| `.gitignore` | Git ignore rules |
+
+### MVP Version/ Subfolder (Legacy Docs & Backend)
+
+| Item | Description |
+|------|-------------|
+| `MVP Version/README.md` | Original comprehensive project documentation |
+| `MVP Version/changes.md` | This file — repository change timeline |
+| `MVP Version/roadmap.md` | 4-Phase strategic roadmap |
+| `MVP Version/plans.md` | 10 advanced strategic concepts |
+| `MVP Version/ODU NANNA.md` | Early project description |
+| `MVP Version/research and information.md` | Technical research notes |
+| `MVP Version/split.md` | Team role assignments |
+| `MVP Version/tasks.md` | Task tracking |
+| `MVP Version/backend/` | FastAPI backend skeleton |
+| `MVP Version/frontend/` | Old React+Vite frontend skeleton |
+| `MVP Version/Prompts/` | Planning prompts for AI generation |
+| `MVP Version/[Pub] ISRO BAH 2026 _ Idea Submission Template.pptx` | Presentation template |
+
+---
+
+## Team Role Status
+
+The latest role split (from `split.md`) defines:
+
+- **Rockie:** Backend lead and project coordinator.
+- **Venkyy:** Research lead and concept explainer.
+- **Laksha:** Frontend developer — built the polished CLOUDCLEAR UI.
+- **Mru:** Frontend developer — results page, animations, visual polish.
+
+---
+
+## Overall Progress
+
+The repository has moved through these stages:
+
+1. ✅ Initial README creation
+2. ✅ README cleanup
+3. ✅ Full project documentation expansion
+4. ✅ Extra hackathon markdown upload
+5. ✅ File rename cleanup
+6. ✅ Project planning documents added
+7. ✅ Team responsibilities documented
+8. ✅ Repository timeline documented
+9. ✅ MVP Frontend + Backend skeleton created
+10. ✅ ISRO PPT template added
+11. ✅ FAQ and research documents added
+12. ✅ **Laksha's polished React 19 frontend added** (major milestone)
+13. ✅ 4-Phase strategic roadmap added
+14. ✅ Repository restructured — frontend at root, legacy docs in `MVP Version/`
+15. ✅ **Strategic Advantage Plans added** (10 concepts for finale victory)
+
+### Next Steps (Per Roadmap)
+
+| Phase | Dates | Focus |
+|-------|-------|-------|
+| **Phase 1** | Now — June 25 | Submit Idea PPT, finalize MVP |
+| **Phase 2** | June 25 — July 22 | Exam Lockdown (zero coding) |
+| **Phase 3** | July 23 — August 5 | 14-Day AI Sprint (train PyTorch GAN) |
+| **Phase 4** | August 6 — 7 | 30-Hour Grand Finale (TensorRT, win!) |
+
+---
+
+*Last updated: June 21, 2026 | Maintained by Team SIRIus*
